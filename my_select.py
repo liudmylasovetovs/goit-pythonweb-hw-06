@@ -126,16 +126,16 @@ def select_10(student_name, teacher_name):
 
 def select():
     print(select_1())
-    print(select_2("Python"))
-    print(select_3("Python"))
+    print(select_2("Math"))
+    print(select_3("HTML"))
     print(select_4())
-    print(select_5("Болеслав Чаленко"))
-    print(select_6("MCS4"))
-    print(select_7("MCS4", "Python"))
-    print(select_8("Болеслав Чаленко"))
-    print(select_9("Анастасія Пилипенко"))
-    print(select_10("Анастасія Пилипенко", "Болеслав Чаленко"))
+    print(select_5("Анжела Акуленко"))
+    print(select_6("MDA2"))
+    print(select_7("MDA2", "Python"))
+    print(select_8("Віра Гавриленко"))
+    print(select_9("Мирослав Дурдинець"))
+    print(select_10("Мирослав Дурдинець", "Віра Гавриленко"))
 
 
 if __name__ == "__main__":
-    print(select_1())
+    print(select())
